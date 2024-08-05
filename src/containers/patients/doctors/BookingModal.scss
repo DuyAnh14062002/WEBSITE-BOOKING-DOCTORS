@@ -1,0 +1,63 @@
+.booking-modal-content{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  .booking-modal-header{
+     height: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid #333;
+     .btn-hide-modal{
+      font-size: 20px;
+      cursor: pointer;
+      &:hover{
+        color: red;
+        transition: 0.2s;
+      }
+     }
+  }
+  .booking-modal-body{
+    height: 100%;
+    .price{
+      margin-top: 15px;
+    }
+    .row{
+      .col-6{
+        margin: 10px 0;
+      }
+    }
+  }
+  .booking-modal-footer{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .btn-confirm{
+       height: 33px;
+       width: 80px;
+       outline: none;
+       border: none;
+       background-color: orange;
+       border-radius: 3px;
+       margin: 0 10px;
+       &:hover{
+        transition: 0.3s;
+        background-color: rgb(237, 245, 3);
+       }
+    }
+    .btn-cancel{
+      height: 33px;
+      width: 80px;
+      outline: none;
+      border: none;
+      background-color: gray;
+      border-radius: 3px;
+      margin: 0 10px;
+       &:hover{
+        transition: 0.3s;
+        background-color: rgb(85, 84, 84);
+       }
+    }
+  }
+}

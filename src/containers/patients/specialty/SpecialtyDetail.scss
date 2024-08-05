@@ -1,0 +1,33 @@
+.container-detail-specialty {
+  padding: 20px 217px;
+  background-color: rgb(201, 199, 199);
+  min-height: 0px;
+  .detail-body {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0px 3px 6px rgb(179, 175, 175);
+    .detail-left {
+      width: 50%;
+    }
+    .detail-right {
+      width: 50%;
+      .doctor-schedule {
+        border-bottom: 1px solid gray;
+      }
+      .doctor-extra {
+        margin: 10px 0;
+      }
+    }
+  }
+}
+.intro-specialty {
+  background-color: white;
+  padding: 0 217px;
+}
+.title-intro {
+  padding: 0 217px;
+  color: rgb(56, 150, 237);
+  margin: 20px 0;
+}

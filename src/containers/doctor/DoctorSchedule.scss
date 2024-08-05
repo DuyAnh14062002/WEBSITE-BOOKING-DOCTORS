@@ -1,0 +1,41 @@
+.container{
+  .row{
+    .select-options{
+      margin: 50px 0 20px 0;
+    }
+    .date-picker{
+      margin: 50px 0 20px 0;
+    }
+  }
+}
+.title-schedule{
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.select-time-container{
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  .select-item{
+     padding: 3px 5px;
+     border: 1px solid black;
+     max-width: 150px;
+     cursor: pointer;
+     &:hover{
+       border-color: orange;
+       transition: 0.2s;
+     }
+     &.active{
+       background-color: orange;
+       color: white;
+     }
+  }
+}
+.button-schedule{
+  button{
+    margin-top: 25px;
+    padding: 0px 5px 0px 5px;
+  }
+}

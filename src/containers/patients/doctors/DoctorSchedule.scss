@@ -1,0 +1,51 @@
+.container-schedule {
+  display: flex;
+  margin: 20px auto;
+  max-width: 1080px;
+  height: 200px;
+  .content-left {
+    select {
+      background-color: white;
+      border: none;
+      border-bottom: 1px solid black;
+      color: rgb(47, 132, 139);
+      cursor: pointer;
+    }
+    .title-calender {
+      margin-top: 15px;
+      span {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      i {
+        margin-right: 3px;
+      }
+    }
+    .time-schedule {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1%;
+      button {
+        padding: 10px 15px;
+        min-width: 30%;
+        background-color: #fff04b;
+        border-radius: 3px;
+        margin-right: 8px;
+        margin-top: 8px;
+        text-align: center;
+        color: #333;
+        border: none;
+        box-sizing: border-box;
+        outline: none;
+        font-weight: bolder;
+        &:hover {
+          //border: 2px solid rgb(78, 155, 237);
+          color: white;
+          transition: 0.1s;
+          background-color: blue;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.doctor-info {
+  width: 84%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  .doctor-info-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  .doctor-info-text {
+    width: 80%;
+    margin-left: 22px;
+    margin-top: 10px;
+  }
+}
+.doctor-info-image-container {
+  width: 36%;
+}

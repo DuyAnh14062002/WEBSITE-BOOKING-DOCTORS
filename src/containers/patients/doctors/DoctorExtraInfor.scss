@@ -1,0 +1,51 @@
+.doctor-extra-infor-container{
+  .content-up{
+    margin-bottom: 15px;
+    .content-title{
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .content-name{
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 8px;
+    }
+    .content-address{
+      font-weight: 600;
+      color: #333;
+    }
+  }
+  .content-down{
+    .show-up{
+      span{
+        color: blue;
+        cursor: pointer;
+        margin-left: 5px;
+      }
+    }
+    .show-down{
+      margin-bottom: 10px;
+      .show-down-box{
+        border: 1px solid #333;
+        padding: 5px 5px;
+        .show-down-price{
+          margin-bottom: 5px;
+          padding: 0 15px 0 0;
+          .show-down-price-number{
+            float: right;
+          }
+        }
+      }
+      .infor-payment{
+        border: 1px solid black;
+        background-color: #dad9d9;
+      }
+      .close-detail{
+        margin-top: 2px;
+        color: blue;
+        cursor: pointer;
+      }
+    }
+  }
+}

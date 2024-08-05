@@ -1,0 +1,49 @@
+.doctor-info {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  .doctor-info-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 51px;
+    cursor: pointer;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  .doctor-info-text {
+    width: 80%;
+  }
+}
+.container-doctor-introduce {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: #eee;
+  border-bottom: #eee;
+  padding-top: 5px;
+  .doctor-introduce {
+    width: 1170px;
+    padding-left: 64px;
+    padding-right: 15px;
+    margin: 40px auto;
+  }
+}
+.content-doctor-info {
+  display: flex;
+  margin: 20px auto;
+  max-width: 1080px;
+  height: 200px;
+  .content-left-info {
+    width: 50%;
+    border-right: 1px solid black;
+  }
+  .content-right-info {
+    width: 50%;
+    padding-left: 15px;
+  }
+}

@@ -1,0 +1,20 @@
+.upload-image-container{
+  width: 90px;
+  padding: 6px;
+  border-radius: 3px;
+  background: #ddd;
+  cursor: pointer;
+}
+.previewImage{
+  border: 1px solid #090909;
+  height: 50px;
+  width: 150px;
+  margin-top: 4px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.input-email{
+margin-top: 0 !important;
+}

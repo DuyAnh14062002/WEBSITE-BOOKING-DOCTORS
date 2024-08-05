@@ -1,0 +1,177 @@
+.section {
+  width: 100%;
+  border-bottom: 3px solid #efeef5;
+  border-top: 3px solid #efeef5;
+  height: 400px;
+  &.section-about {
+    border-radius: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    border-top: none;
+    height: 500px;
+    .section-about-header {
+      padding: 10px;
+      h2 {
+        font-weight: bold;
+      }
+    }
+    .section-about-content {
+      width: 100%;
+      display: flex;
+      padding: 15px;
+      gap: 15px;
+      .about-content-left {
+        width: 60%;
+      }
+      .about-content-right {
+        width: 40%;
+      }
+    }
+  }
+  &.section-footer {
+    height: 20px;
+    border-bottom: none;
+    padding: 20px;
+    p {
+      text-align: center;
+    }
+  }
+  .section-container {
+    &.content-medical-facility {
+      background-color: #eee;
+    }
+    &.content-feutured-doctor {
+      background-color: #fff;
+      border: none;
+    }
+
+    .section-header {
+      padding-top: 20px;
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      button {
+        background: #ebebeb;
+        display: inline-block;
+        padding: 10px 15px;
+        color: #282e41;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        &.btn-medical-facility {
+          background: #c6c3c3;
+        }
+        &:hover {
+          transition: 0.2;
+          color: #fff;
+          background-color: orange;
+        }
+      }
+    }
+    .section-content {
+      height: 337px;
+      margin: 0 150px;
+      .section-custom {
+        &.custom-feutured-doctor {
+          height: auto;
+          border: 1px solid;
+          margin-top: 26px;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          padding: 15px;
+          width: 95% !important;
+        }
+        .section-image {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 180px;
+          width: 95%;
+          margin-top: 51px;
+          cursor: pointer;
+          &.medical-facility-image {
+            background: url("../../assets/images/medical-facility/lo-go-viet-duc.jpg");
+          }
+          &.featured-doctor-image {
+            //background-image: url('../../assets/images/featured-doctor/bshung.jpg');
+            background-size: contain;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            border-radius: 50%;
+          }
+        }
+        .section-title {
+          margin-top: 10px;
+          &.title-featured-doctor {
+            cursor: pointer;
+            &:hover {
+              color: blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.slick-slider {
+  height: 260px;
+  .slick-prev {
+    left: -12px !important;
+    top: 132px;
+    z-index: 1000;
+  }
+  .slick-next {
+    right: 38px !important;
+    top: 133px;
+  }
+  .slick-next::before {
+    font-style: normal;
+    background: #fff;
+    border: 2px solid #d7d7d7;
+    color: #959595 !important;
+    text-align: center;
+    font-size: 50px;
+  }
+  .slick-prev::before {
+    font-style: normal;
+    background: #fff;
+    border: 2px solid #d7d7d7;
+    color: #959595 !important;
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+//=====================RESPONSIVE========================
+
+@media screen and (max-width: 1024px) and (min-width: 678px) {
+  .section-content {
+    margin: 0 85px !important;
+    background-color: red !important;
+  }
+  .section-header {
+    margin: 0 85px !important;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .section-content {
+    margin: 0 85px !important;
+    background-color: rgb(11, 220, 56) !important;
+  }
+  .section-header {
+    margin: 0 85px !important;
+  }
+}
